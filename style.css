@@ -34,8 +34,9 @@ hr {
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -165px;
-  margin-top: -160px;
+  transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%); 
+-webkit-transform: translate(-50%, -50%);
 }
 
 .profile {
